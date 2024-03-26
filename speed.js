@@ -3,7 +3,7 @@ function calculateDemeritPoints(speed) {
     const kmPerDemeritPoint = 5;
     const pointPerKmAbove = 1;
 
-
+  
     if  (speed < speedLimit) {
         console.log("ok");
         return;
